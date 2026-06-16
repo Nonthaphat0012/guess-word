@@ -170,7 +170,7 @@ async def main(page: ft.Page):
     textentry = ft.TextField(
         width=150, text_size=28, text_align=ft.TextAlign.CENTER,
         bgcolor="#fffacd", color="#2f4f4f", border_radius=10,
-        border_width=2, border_color="#4682b4", max_length=15,
+        border_width=2, border_color="#4682b4", max_length=1,
         on_submit=update_screen
     )
 
